@@ -1,0 +1,20 @@
+{
+  "name": "heatmap_smashingmag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "add": "git add . && git commit && git push origin $(git rev-parse --abbrev-ref HEAD)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryPopplns/heatmap_smashingmag.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maryPopplns/heatmap_smashingmag/issues"
+  },
+  "homepage": "https://github.com/maryPopplns/heatmap_smashingmag#readme"
+}
