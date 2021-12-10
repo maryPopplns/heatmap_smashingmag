@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  width: 100vw;
+  width: 100%;
 }
 
 .global-header {
@@ -131,7 +131,7 @@ header {
 }
 
 .card-container > div > div {
-  height: 30%;
+  height: 33%;
   width: 100%;
 }
 
