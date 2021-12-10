@@ -59,7 +59,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
   height: 205px;
   width: 75%;
 }
@@ -110,5 +110,39 @@ header {
   right: 0;
   height: 650px;
   width: 520px;
+  background-color: var(--second);
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4em auto;
+  height: 520px;
+  width: 1630px;
+}
+
+.card-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 455px;
+  width: 505px;
+}
+
+.card-container > div > div {
+  height: 30%;
+  width: 100%;
+}
+
+.card-container > div > div:nth-child(1) {
+  background-color: var(--second);
+}
+
+.card-container > div > div:nth-child(2) {
+  background-color: var(--third);
+}
+
+.card-container > div > div:nth-child(3) {
   background-color: var(--second);
 }
